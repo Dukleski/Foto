@@ -42,7 +42,8 @@
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
-
+        <feature name="http://api.phonegap.com/1.0/camera"/>
+        <feature name="http://api.phonegap.com/1.0/file"/>
     <!--
         Define access to external domains.
 
