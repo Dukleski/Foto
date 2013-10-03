@@ -177,7 +177,7 @@
                     
         db = window.openDatabase("contactDB", "1.0", "Contact Database", 1000000);//name,version,display name, size
 
- //       zaNajava(); 
+        zaNajava(); 
 
         addButton.addEventListener("click",function(){ 
         	
