@@ -25,19 +25,15 @@
     // Cordova is ready to be used!
     //
     function onDeviceReady() {
-  /*  		
+    		
     		setTimeout(function(){
     			zaNajava()
     		},4000);
-   */ 	
 
-		zaNajava();
-		$('#sodrzina').css('margin-top',($("#glavna").outerHeight() - $('[data-role=header]').height() - $('[data-role=footer]').height() - $('#sodrzina').outerHeight())/2);
-/*	
     	$("#glavna").live("pageshow", function(){
     		$('#sodrzina').css('margin-top',($("#glavna").outerHeight() - $('[data-role=header]').height() - $('[data-role=footer]').height() - $('#sodrzina').outerHeight())/2);
     	});
-*/
+
     	$('#firstName').keydown(function(event){
     		if (event.keyCode == 13) {
     			event.preventDefault();
