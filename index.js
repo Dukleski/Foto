@@ -30,15 +30,14 @@
     			zaNajava()
     		},4000);
    */ 	
-   	window.setTimeout(function() {
-		navigator.splashscreen.hide();
+
 		zaNajava();
-	},1000);
-	
+		$('#sodrzina').css('margin-top',($("#glavna").outerHeight() - $('[data-role=header]').height() - $('[data-role=footer]').height() - $('#sodrzina').outerHeight())/2);
+/*	
     	$("#glavna").live("pageshow", function(){
     		$('#sodrzina').css('margin-top',($("#glavna").outerHeight() - $('[data-role=header]').height() - $('[data-role=footer]').height() - $('#sodrzina').outerHeight())/2);
     	});
-
+*/
     	$('#firstName').keydown(function(event){
     		if (event.keyCode == 13) {
     			event.preventDefault();
@@ -435,7 +434,7 @@
                   $.mobile.changePage('#vnes', {changeHash: false });
               }
               else {
-            	  $.mobile.changePage("#glavna", {changeHash: false });
+       //     	  $.mobile.changePage("#glavna", {changeHash: false });
                   var a = results.rows.length;
                   var ajtem = results.rows.item(a-1);   
                   ime = ajtem.firstName;
