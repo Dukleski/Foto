@@ -46,7 +46,7 @@
         <feature name="http://api.phonegap.com/1.0/file"/>
         <feature name="http://api.phonegap.com/1.0/geolocation"/>
         
-    <icon src="icon.png" />
+    <icon src="logo.png" />
     <icon src="icons/fotografiraj i reagiraj LOGO 36.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="icons/fotografiraj i reagiraj LOGO48.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="icons/fotografiraj i reagiraj LOGO72.png"   gap:platform="android"    gap:density="hdpi" />
