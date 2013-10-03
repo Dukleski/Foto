@@ -44,6 +44,15 @@
     -->
         <feature name="http://api.phonegap.com/1.0/camera"/>
         <feature name="http://api.phonegap.com/1.0/file"/>
+        
+    <icon src="icon.png" />
+    <icon src="icons/fotografiraj i reagiraj LOGO 36.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="icons/fotografiraj i reagiraj LOGO48.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="icons/fotografiraj i reagiraj LOGO72.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="icons/fotografiraj i reagiraj LOGO96.png"  gap:platform="android"    gap:density="xhdpi" />
+    <icon src="res/icon/webos/icon-64.png"          gap:platform="webos" />
+    <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
+    <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
     <!--
         Define access to external domains.
 
