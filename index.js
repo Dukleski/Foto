@@ -434,7 +434,7 @@
                   $.mobile.changePage('#vnes', {changeHash: false });
               }
               else {
-       //     	  $.mobile.changePage("#glavna", {changeHash: false });
+            	  $.mobile.changePage("#glavna", {changeHash: false });
                   var a = results.rows.length;
                   var ajtem = results.rows.item(a-1);   
                   ime = ajtem.firstName;
