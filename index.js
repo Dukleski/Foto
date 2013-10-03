@@ -28,10 +28,12 @@
     		
     		setTimeout(function(){
     			zaNajava()
-    		},5000);
-    		
-    		$('#sodrzina').css('margin-top',($(window).height() - $('[data-role=header]').height() - $('[data-role=footer]').height() - $('#sodrzina').outerHeight())/2);
+    		},4000);
     	
+    	$("#glavna").live("pageshow", function(){
+    		$('#sodrzina').css('margin-top',($("#glavna").outerHeight() - $('[data-role=header]').height() - $('[data-role=footer]').height() - $('#sodrzina').outerHeight())/2);
+    	});
+
     	$('#firstName').keydown(function(event){
     		if (event.keyCode == 13) {
     			event.preventDefault();
@@ -425,7 +427,7 @@
               if ( results.rows.length == 0 )
               {
             	  alert("Почитуван кориснику,\nВашите лични податоци се строго доверливи, истите нема да бидат неовластено заменети, злоупотребени или дадени на трети лица.");
-                  $.mobile.changePage('#vnes',{changeHash: false });
+                  $.mobile.changePage('#vnes', {changeHash: false });
               }
               else {
             	  $.mobile.changePage("#glavna", {changeHash: false });
