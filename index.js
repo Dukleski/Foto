@@ -30,6 +30,11 @@
     			zaNajava()
     		},4000);
    */ 	
+   	window.setTimeout(function() {
+		navigator.splashscreen.hide();
+		zaNajava();
+	},1000);
+	
     	$("#glavna").live("pageshow", function(){
     		$('#sodrzina').css('margin-top',($("#glavna").outerHeight() - $('[data-role=header]').height() - $('[data-role=footer]').height() - $('#sodrzina').outerHeight())/2);
     	});
@@ -177,7 +182,7 @@
                     
         db = window.openDatabase("contactDB", "1.0", "Contact Database", 1000000);//name,version,display name, size
 
-        zaNajava(); 
+     //   zaNajava(); 
 
         addButton.addEventListener("click",function(){ 
         	
